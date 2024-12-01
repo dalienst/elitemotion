@@ -40,7 +40,7 @@ function Hero() {
       <Button className='h-full'>Book now</Button>
       </form>
       </div>
-      <div className="block lg:hidden absolute p-3 bottom-8 bg-white left-2 lg:right-8 rounded-lg">
+      <div className="block lg:hidden absolute p-3 bottom-0 bg-white left-0 right-0 rounded-t-lg lg:right-8 md:rounded-lg">
       <ul className="flex gap-2">
         <li className="bg-[#edece8] rounded-md px-4 py-1">Distance</li>
         <li className="border-l-2 border-r-2 px-4 py-1">Hourly</li>
