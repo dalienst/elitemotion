@@ -22,7 +22,7 @@ function Hero() {
             <Menu className="md:hidden"/>
         </nav>
       <div className="absolute top-1/2 -translate-y-2/3 md:-translate-y-1/2 left-2 lg:left-8 text-white">
-      <h2 className="text-3xl lg:text-5xl font-semibold mb-3">A driving experience <br /> Beyond ownership</h2>
+      <h2 className="text-3xl lg:text-5xl font-semibold mb-2 md:mb-3">A driving experience <br /> Beyond ownership</h2>
       <p>Why drive a few cars while you can ride in a whole fleet?</p>
       <Button className='mt-5 invisible md:visible'>Explore more</Button>
       </div>
@@ -40,7 +40,7 @@ function Hero() {
       <Button className='h-full'>Book now</Button>
       </form>
       </div>
-      <div className="block lg:hidden absolute p-3 bottom-5 bg-white left-5 right-5 lg:right-8 rounded-lg">
+      <div className="block lg:hidden absolute p-3 bottom-5 bg-white left-2 lg:right-8 rounded-lg">
       <ul className="flex gap-2">
         <li className="bg-[#edece8] rounded-md px-4 py-1">Distance</li>
         <li className="border-l-2 border-r-2 px-4 py-1">Hourly</li>
